@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": 1689358172000,
+    "message": "[Api_1#createOrder] <--- HTTP 200 OK (516ms) HEADERS {content-type=[application/json;charset=UTF-8]} BODY {\"orderId\":1} <--- END HTTP (58-byte body)"
+  },
+  {
+    "timestamp": 1689358172200,
+    "message": "[Api_1#createOrder] <--- HTTP 200 OK (716ms) HEADERS {content-type=[application/json;charset=UTF-8]} BODY {\"orderId\":2} <--- END HTTP (58-byte body)"
+  },
+  {
+    "timestamp": 1689358172300,
+    "message": "[Api_1#createOrder] <--- HTTP 400 BAD_REQUEST (516ms) HEADERS {content-type=[application/json;charset=UTF-8]} <--- END HTTP (58-byte body)"
+  },
+  {
+    "timestamp": 1689365372100,
+    "message": "[Api_2#createCustomer] <--- HTTP 200 OK (878ms) HEADERS {content-type=[application/json;charset=UTF-8]} BODY {\"orderId\":2} <--- END HTTP (48-byte body)"
+  },
+  {
+    "timestamp": 1689365372200,
+    "message": "[Api_2#createCustomer] <--- HTTP 200 OK (1078ms) HEADERS {content-type=[application/json;charset=UTF-8]} BODY {\"orderId\":1} <--- END HTTP (48-byte body)"
+  },
+   {
+     "timestamp": 1689365372300,
+     "message": "[Api_2#createCustomer] <--- HTTP 401 UNAUTHORIZED (878ms) HEADERS {content-type=[application/json;charset=UTF-8]} <--- END HTTP (48-byte body)"
+   },
+  {
+    "timestamp": 1689368972800,
+    "message": "[Api_3#createProduct] <--- HTTP 200 OK (568ms) HEADERS {content-type=[application/json;charset=UTF-8]} BODY {\"orderId\":1} <--- END HTTP (68-byte body)"
+  },
+  {
+    "timestamp": 1689368972800,
+    "message": "[Api_3#createProduct] <--- HTTP 200 OK (868ms) HEADERS {content-type=[application/json;charset=UTF-8]} BODY {\"orderId\":2} <--- END HTTP (68-byte body)"
+  },
+  {
+    "timestamp": 1689368972800,
+    "message": "[Api_3#createProduct] <--- HTTP 500 INTERNAL_SERVER_ERROR (868ms) HEADERS {content-type=[application/json;charset=UTF-8]} <--- END HTTP (68-byte body)"
+  }
+]
